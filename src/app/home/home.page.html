@@ -1,20 +1,7 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content>
+  <img class="homeIlustration" src="../../assets/ilustrations/undraw_Add_files_re_v09g.svg">
+  <h1 class="title">NotesApp</h1>
+  <p class="description">Recurdalo en cualquier momento</p>
+  <ion-button class="homeButton ion-text-capitalize" color="primary" (click)="showLogin()">Iniciar sesión</ion-button>
+  <p class="registerText" (click)="showRegister()">¿No tienes cuenta? regístrate</p>
 </ion-content>

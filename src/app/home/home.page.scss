@@ -1,27 +1,40 @@
-#container {
+.homeIlustration{
+  margin: 0px;
+  padding: 0px;
+  width: 45%;
+  margin: auto;
+  display: block;
+  margin-top: 10vh;
+}
+.title{
+  margin: 0px;
+  padding: 0px;
+  font-size: 8vw;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 5vh;
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.description{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 1.5vh;
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+.homeButton{
+  margin: 0px;
+  padding: 0px;
+  width: 75%;
+  height: 47px;
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  margin-top: 40vh;
 }
-
-#container a {
-  text-decoration: none;
+.registerText{
+  margin: 0px;
+  padding: 0px;
+  font-size: 4vw;
+  text-align: center;
+  margin-top: 3.5vh;
 }

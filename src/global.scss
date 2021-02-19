@@ -24,3 +24,27 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face{
+    font-family: 'Product Sans';
+    src: url('./assets/fonts/ProductSans-Regular.ttf');
+}
+*{
+    font-family: 'Product Sans', sans-serif !important;
+}
+.loginModal .modal-wrapper {
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.registerModal .modal-wrapper {
+    width: 100%;
+    height: 70%;
+    position: fixed;
+    bottom: 0;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
